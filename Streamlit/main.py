@@ -174,7 +174,6 @@ def home_page():
                 - Choose "Copy link to playlist"
             """)
             st.markdown("<br>", unsafe_allow_html=True)
-            st.image('spotify_get_playlist_url.png')
         if state:
             play_recomm()
     elif radio == "Song" :
@@ -190,7 +189,6 @@ def home_page():
                 - Choose "Copy link to Song"
             """)
             st.markdown("<br>", unsafe_allow_html=True)
-            st.image('spotify_get_song_url.png')
         if state:
             song_recomm()
     elif radio == "Artist Top Tracks" :
@@ -206,7 +204,6 @@ def home_page():
                 - Choose "Copy link to Artist"
             """)
             st.markdown("<br>", unsafe_allow_html=True)
-            st.image('spotify_get_artist_url.png')
         if state:
             art_recomm()
     

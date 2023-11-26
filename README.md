@@ -1,12 +1,4 @@
 # Spotify-Recommendation-System
-Please visit the following link to access the demo version: [Spotify-Recommendation-System](https://longliveruby-spotify-recommendation-system.hf.space/)
-
-
-
-https://user-images.githubusercontent.com/107134115/201241072-06681109-72ad-4416-b5f0-35322646dc1e.mp4
-
-
-
 
 ## Description
 The goal of this project is to create a recommendation system that would allow users to discover music based on a given playlist or song that they already enjoy. This project begins with data collection and a self-growing dataset to ensure that the model will work well in the future and continues through model deployment.

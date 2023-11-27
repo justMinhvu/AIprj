@@ -7,7 +7,7 @@ The goal of this project is to create a recommendation system that would allow u
 For this project, we're using the Million Playlist Dataset, which, as its name implies, consists of one million playlists.
 contains a number of songs, and some metadata is included as well, such as the name of the playlist, duration, number of songs, number of artists, etc.
 
-Check out the dataset [here](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge)
+Check out the dataset [here](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge/dataset_files)
 
 ## Data extraction
 The first step will be to obtain keys to use. We'll need a [Spotify for developers](https://developer.spotify.com/) account for this. This is equivalent to a Spotify account and does not necessitate Spotify Premium. Go to the dashboard and select "create an app" from there. We now have access to the public and private keys required to use the API.
@@ -83,3 +83,4 @@ df['Track_release_date'] = df['Track_release_date'].apply(lambda x: int(x/50))
 
 ### Reference
 - https://spotipy.readthedocs.io/en/master/
+- https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge/
